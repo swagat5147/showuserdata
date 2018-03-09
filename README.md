@@ -1,5 +1,6 @@
 # showuserdata
-#ABOUT
-THIS PROGRAM DISPLAYS THE USERNAME THAT IS MADE AS AN INPUT BY USER DURING RUN TIME.  
-THIS USES JSP AND SERVLET.  
-#
+ABOUT
+==
+This program displays the username that is made as an input during runtime by the user.  
+This uses JSP and Servlets for working.  
+
