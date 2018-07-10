@@ -5,9 +5,23 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>enter_data</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<style type="text/css">
+body{
+padding-top: 100px;
+background-color: rgb(51, 221, 179);
+}
+h1{
+background-color: rgb(12, 242, 134);
+text-align: center;
+padding: 20px;
+}
+</style>
 </head>
 <body>
-<h1 align="center"><b>LOGIN HERE</b></h1>
+<div class="container">
+<div class="jumbotron">
+<h1><b>LOGIN !!</b></h1>
 	<form method="get" action="login" align="center">
 		<p>
 			<label for="username">Username:</label> <input name="username"
@@ -16,5 +30,9 @@
 		
 		<button>Login</button>
 	</form>
+</div>
+
+</div>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>
