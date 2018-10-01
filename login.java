@@ -11,12 +11,16 @@ import javax.servlet.http.HttpSession;
 @WebServlet("/login")
 public class login extends HttpServlet {
 	
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) {
+		try{
 		String uname=request.getParameter("username");
 			HttpSession session=request.getSession();
 			session.setAttribute("username", uname);
 			response.sendRedirect("info.jsp");
-		
+		}
+		catch(Exception e){
+			System.out.println("The error found is "+e);	
+		}
 	}
 
 
